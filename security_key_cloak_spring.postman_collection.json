@@ -120,7 +120,7 @@
 			]
 		},
 		{
-			"name": "PCKE",
+			"name": "2PCKE",
 			"item": [
 				{
 					"name": "authcode2 Copy",
@@ -582,68 +582,6 @@
 			"name": "6. Resource Sever",
 			"item": [
 				{
-					"name": "statuscheck51",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "GET",
-						"header": [
-							{
-								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJGQmFmZG9JdGJJQktCazNfcEtBZzVGTzYxdmlfQ0praWY5QW1FTHBlbVV3In0.eyJleHAiOjE2ODkzNTk4MzksImlhdCI6MTY4OTM1OTUzOSwiYXV0aF90aW1lIjoxNjg5MzU5NDkxLCJqdGkiOiI1MTUxNjcyMS01NjVmLTQxMGUtYWRmZC02MzllZWMxMjMxMjQiLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwODAvcmVhbG1zL2FwcHNkZXZlbG9wZXJibG9nMiIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiJkM2EzYzQ2Ni0zYzFjLTQ0NWQtYjBhNC05NzJmYWVjYWZhZjkiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJwaG90by1hcHAtY29kZS1mbG93LXJlc3QtY2llbnQiLCJzZXNzaW9uX3N0YXRlIjoiMTZhMDViYjAtZDJiMy00MzE3LWExMTYtZGY2ZmM0ZmMyZTE5IiwiYWxsb3dlZC1vcmlnaW5zIjpbIi8qIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsImRlZmF1bHQtcm9sZXMtYXBwc2RldmVsb3BlcmJsb2cyIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6Im9wZW5pZCBlbWFpbCBwcm9maWxlIiwic2lkIjoiMTZhMDViYjAtZDJiMy00MzE3LWExMTYtZGY2ZmM0ZmMyZTE5IiwiZW1haWxfdmVyaWZpZWQiOnRydWUsIm5hbWUiOiJMdWl6YSBDZXJjaGlhcmkiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJsdWl6YS5jZXJjaGlhcmkiLCJnaXZlbl9uYW1lIjoiTHVpemEiLCJmYW1pbHlfbmFtZSI6IkNlcmNoaWFyaSIsImVtYWlsIjoibHVpemEuY2VyY2hpYXJpQGdtYWlsLmNvbSJ9.j9dB17JLNeYYFr77YJ81hwXoBKdbwEvPFhiF2PdUsf6_upO84-F77Rjt6Ax6m8YiVXQgMa-n0OisGR6oj8o-1f85Ei2Fyf7jRxu_CJHK6qAI34mZ93-SEVc6ZrQh1PYAdH8vp9z6flMXl_Jwn9uL9PQ_UkteVA9KT5VrEH2s2a18B30x3MqeP8uUFCz5P8ANUmlFjkkRcnSWgyK42oYepbgLbZH9PyaHg-wGE00LZjdZmmg2nIQ-7JJ-azYgZzDUo4YP_MItYZ5cmYLdJt7TdwFm3mYarvU486ahpMmRje-5R7BDKugQXTwqiKkJIvR2Nd-7GaYeR-NXtfu5iEwiXQ",
-								"type": "text"
-							}
-						],
-						"body": {
-							"mode": "urlencoded",
-							"urlencoded": [
-								{
-									"key": "code",
-									"value": "",
-									"type": "text"
-								},
-								{
-									"key": "redirect_uri",
-									"value": "http://localhost:8083/callback",
-									"type": "text"
-								},
-								{
-									"key": "scope",
-									"value": "openid profile email phone",
-									"type": "text"
-								},
-								{
-									"key": "client_id",
-									"value": "photo-app-code-flow-client",
-									"type": "text"
-								},
-								{
-									"key": "response_type",
-									"value": "code",
-									"type": "text"
-								}
-							]
-						},
-						"url": {
-							"raw": "http://localhost:8080/realms/appsdeveloperblog2/protocol/openid-connect/userinfo",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "8080",
-							"path": [
-								"realms",
-								"appsdeveloperblog2",
-								"protocol",
-								"openid-connect",
-								"userinfo"
-							]
-						}
-					},
-					"response": []
-				},
-				{
 					"name": "6ResourceServer47 Copy",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -765,6 +703,68 @@
 					"response": []
 				},
 				{
+					"name": "statuscheck51",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJGQmFmZG9JdGJJQktCazNfcEtBZzVGTzYxdmlfQ0praWY5QW1FTHBlbVV3In0.eyJleHAiOjE2ODkzNTk4MzksImlhdCI6MTY4OTM1OTUzOSwiYXV0aF90aW1lIjoxNjg5MzU5NDkxLCJqdGkiOiI1MTUxNjcyMS01NjVmLTQxMGUtYWRmZC02MzllZWMxMjMxMjQiLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwODAvcmVhbG1zL2FwcHNkZXZlbG9wZXJibG9nMiIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiJkM2EzYzQ2Ni0zYzFjLTQ0NWQtYjBhNC05NzJmYWVjYWZhZjkiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJwaG90by1hcHAtY29kZS1mbG93LXJlc3QtY2llbnQiLCJzZXNzaW9uX3N0YXRlIjoiMTZhMDViYjAtZDJiMy00MzE3LWExMTYtZGY2ZmM0ZmMyZTE5IiwiYWxsb3dlZC1vcmlnaW5zIjpbIi8qIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsImRlZmF1bHQtcm9sZXMtYXBwc2RldmVsb3BlcmJsb2cyIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6Im9wZW5pZCBlbWFpbCBwcm9maWxlIiwic2lkIjoiMTZhMDViYjAtZDJiMy00MzE3LWExMTYtZGY2ZmM0ZmMyZTE5IiwiZW1haWxfdmVyaWZpZWQiOnRydWUsIm5hbWUiOiJMdWl6YSBDZXJjaGlhcmkiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJsdWl6YS5jZXJjaGlhcmkiLCJnaXZlbl9uYW1lIjoiTHVpemEiLCJmYW1pbHlfbmFtZSI6IkNlcmNoaWFyaSIsImVtYWlsIjoibHVpemEuY2VyY2hpYXJpQGdtYWlsLmNvbSJ9.j9dB17JLNeYYFr77YJ81hwXoBKdbwEvPFhiF2PdUsf6_upO84-F77Rjt6Ax6m8YiVXQgMa-n0OisGR6oj8o-1f85Ei2Fyf7jRxu_CJHK6qAI34mZ93-SEVc6ZrQh1PYAdH8vp9z6flMXl_Jwn9uL9PQ_UkteVA9KT5VrEH2s2a18B30x3MqeP8uUFCz5P8ANUmlFjkkRcnSWgyK42oYepbgLbZH9PyaHg-wGE00LZjdZmmg2nIQ-7JJ-azYgZzDUo4YP_MItYZ5cmYLdJt7TdwFm3mYarvU486ahpMmRje-5R7BDKugQXTwqiKkJIvR2Nd-7GaYeR-NXtfu5iEwiXQ",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "code",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "redirect_uri",
+									"value": "http://localhost:8083/callback",
+									"type": "text"
+								},
+								{
+									"key": "scope",
+									"value": "openid profile email phone",
+									"type": "text"
+								},
+								{
+									"key": "client_id",
+									"value": "photo-app-code-flow-client",
+									"type": "text"
+								},
+								{
+									"key": "response_type",
+									"value": "code",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/realms/appsdeveloperblog2/protocol/openid-connect/userinfo",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"realms",
+								"appsdeveloperblog2",
+								"protocol",
+								"openid-connect",
+								"userinfo"
+							]
+						}
+					},
+					"response": []
+				},
+				{
 					"name": "Get Grant Authorize",
 					"request": {
 						"method": "GET",
@@ -815,6 +815,68 @@
 		{
 			"name": "5. StandAlone KeyCloack",
 			"item": [
+				{
+					"name": "statuscheck51 Copy",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJGQmFmZG9JdGJJQktCazNfcEtBZzVGTzYxdmlfQ0praWY5QW1FTHBlbVV3In0.eyJleHAiOjE2ODkzNTk4MzksImlhdCI6MTY4OTM1OTUzOSwiYXV0aF90aW1lIjoxNjg5MzU5NDkxLCJqdGkiOiI1MTUxNjcyMS01NjVmLTQxMGUtYWRmZC02MzllZWMxMjMxMjQiLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwODAvcmVhbG1zL2FwcHNkZXZlbG9wZXJibG9nMiIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiJkM2EzYzQ2Ni0zYzFjLTQ0NWQtYjBhNC05NzJmYWVjYWZhZjkiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJwaG90by1hcHAtY29kZS1mbG93LXJlc3QtY2llbnQiLCJzZXNzaW9uX3N0YXRlIjoiMTZhMDViYjAtZDJiMy00MzE3LWExMTYtZGY2ZmM0ZmMyZTE5IiwiYWxsb3dlZC1vcmlnaW5zIjpbIi8qIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsImRlZmF1bHQtcm9sZXMtYXBwc2RldmVsb3BlcmJsb2cyIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6Im9wZW5pZCBlbWFpbCBwcm9maWxlIiwic2lkIjoiMTZhMDViYjAtZDJiMy00MzE3LWExMTYtZGY2ZmM0ZmMyZTE5IiwiZW1haWxfdmVyaWZpZWQiOnRydWUsIm5hbWUiOiJMdWl6YSBDZXJjaGlhcmkiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJsdWl6YS5jZXJjaGlhcmkiLCJnaXZlbl9uYW1lIjoiTHVpemEiLCJmYW1pbHlfbmFtZSI6IkNlcmNoaWFyaSIsImVtYWlsIjoibHVpemEuY2VyY2hpYXJpQGdtYWlsLmNvbSJ9.j9dB17JLNeYYFr77YJ81hwXoBKdbwEvPFhiF2PdUsf6_upO84-F77Rjt6Ax6m8YiVXQgMa-n0OisGR6oj8o-1f85Ei2Fyf7jRxu_CJHK6qAI34mZ93-SEVc6ZrQh1PYAdH8vp9z6flMXl_Jwn9uL9PQ_UkteVA9KT5VrEH2s2a18B30x3MqeP8uUFCz5P8ANUmlFjkkRcnSWgyK42oYepbgLbZH9PyaHg-wGE00LZjdZmmg2nIQ-7JJ-azYgZzDUo4YP_MItYZ5cmYLdJt7TdwFm3mYarvU486ahpMmRje-5R7BDKugQXTwqiKkJIvR2Nd-7GaYeR-NXtfu5iEwiXQ",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "code",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "redirect_uri",
+									"value": "http://localhost:8083/callback",
+									"type": "text"
+								},
+								{
+									"key": "scope",
+									"value": "openid profile email phone",
+									"type": "text"
+								},
+								{
+									"key": "client_id",
+									"value": "photo-app-code-flow-client",
+									"type": "text"
+								},
+								{
+									"key": "response_type",
+									"value": "code",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/realms/appsdeveloperblog2/protocol/openid-connect/userinfo",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"realms",
+								"appsdeveloperblog2",
+								"protocol",
+								"openid-connect",
+								"userinfo"
+							]
+						}
+					},
+					"response": []
+				},
 				{
 					"name": "Exchange Code for Token",
 					"request": {
@@ -876,6 +938,172 @@
 				},
 				{
 					"name": "Get Grant Authorize",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/realms/appsdeveloperblog2/protocol/openid-connect/auth?response_type=code&client_id=photo-app-code-flow-rest-cient&state=hv8hf0h2i7d&redirect_uri=http://localhost:8086/callback",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"realms",
+								"appsdeveloperblog2",
+								"protocol",
+								"openid-connect",
+								"auth"
+							],
+							"query": [
+								{
+									"key": "response_type",
+									"value": "code"
+								},
+								{
+									"key": "client_id",
+									"value": "photo-app-code-flow-rest-cient"
+								},
+								{
+									"key": "state",
+									"value": "hv8hf0h2i7d"
+								},
+								{
+									"key": "redirect_uri",
+									"value": "http://localhost:8086/callback"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "7.RoleBasedAccessControlWithKeycloak",
+			"item": [
+				{
+					"name": "Exchange Code for Token Copy",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "grant_type",
+									"value": "authorization_code",
+									"type": "text"
+								},
+								{
+									"key": "client_id",
+									"value": "photo-app-code-flow-rest-cient",
+									"type": "text"
+								},
+								{
+									"key": "client_secret",
+									"value": "72a11dGQwYrwliaSbXBty9TtgkzghfHc",
+									"type": "text"
+								},
+								{
+									"key": "redirect_uri",
+									"value": "http://localhost:8086/callback",
+									"type": "text"
+								},
+								{
+									"key": "scope",
+									"value": "openid profile",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "code",
+									"value": "53af9316-9670-4443-8307-e4fa4d289fd6.ee62d215-3e4a-46ea-9483-8fb121876046.8cd82c4f-d48b-4940-8eda-25e6e7be720e",
+									"description": "passar get grant before",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/realms/appsdeveloperblog2/protocol/openid-connect/token",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"realms",
+								"appsdeveloperblog2",
+								"protocol",
+								"openid-connect",
+								"token"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "statuscheck 62",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJGQmFmZG9JdGJJQktCazNfcEtBZzVGTzYxdmlfQ0praWY5QW1FTHBlbVV3In0.eyJleHAiOjE2ODk0NDgxNzUsImlhdCI6MTY4OTQ0Nzg3NSwiYXV0aF90aW1lIjoxNjg5NDQ2NzY2LCJqdGkiOiJlZDMwMWY2Zi1hOTJkLTQ3YmYtYTkzMy1jNzAyNDNkZWIxNzciLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwODAvcmVhbG1zL2FwcHNkZXZlbG9wZXJibG9nMiIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiJkM2EzYzQ2Ni0zYzFjLTQ0NWQtYjBhNC05NzJmYWVjYWZhZjkiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJwaG90by1hcHAtY29kZS1mbG93LXJlc3QtY2llbnQiLCJzZXNzaW9uX3N0YXRlIjoiZWU2MmQyMTUtM2U0YS00NmVhLTk0ODMtOGZiMTIxODc2MDQ2IiwiYWxsb3dlZC1vcmlnaW5zIjpbIi8qIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsImRlZmF1bHQtcm9sZXMtYXBwc2RldmVsb3BlcmJsb2cyIiwiZGV2ZWxvcGVyIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6ImVtYWlsIiwic2lkIjoiZWU2MmQyMTUtM2U0YS00NmVhLTk0ODMtOGZiMTIxODc2MDQ2IiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImVtYWlsIjoibHVpemEuY2VyY2hpYXJpQGdtYWlsLmNvbSJ9.jG_flEesi1XLm7B-tCmihgc4c0kU_cqIumXQbGaJgEdZyNINkENwrtCLB309I2UV6Gx4e7xrPGJ0iS2bDlf7v52nb8PzADxumyOBz7GeS0vPIdSM4UagDh5Q5MkAOTMfnf3yIq__E2kHYvzjeNA7m47hazn5IRSQxCviLqO51jFQ14boYcvAXDDDxNvFQbYLOP6aEiQXayx1v8ohSRp-2XXmQGGFmsa0HGmg3QqZWsgWDfkdaxzvLFo_-SM6BE-9Itw3_gGhvVMzgVtv_wGbAi8M0HtlzWbGdjf-gPRZ_2gnPu9AKTVB4O9FhyqREG5OCUONlXeYyCCMLGqyUYyQOA",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "code",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "redirect_uri",
+									"value": "http://localhost:8083/callback",
+									"type": "text"
+								},
+								{
+									"key": "scope",
+									"value": "openid profile email phone",
+									"type": "text"
+								},
+								{
+									"key": "client_id",
+									"value": "photo-app-code-flow-client",
+									"type": "text"
+								},
+								{
+									"key": "response_type",
+									"value": "code",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8081/users/status/check",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"users",
+								"status",
+								"check"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Grant Authorize Copy",
 					"request": {
 						"method": "GET",
 						"header": [],
