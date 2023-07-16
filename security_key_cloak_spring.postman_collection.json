@@ -1043,7 +1043,7 @@
 					"response": []
 				},
 				{
-					"name": "statuscheck 62",
+					"name": "statuscheck",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -1097,6 +1097,62 @@
 								"users",
 								"status",
 								"check"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete_role",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJGQmFmZG9JdGJJQktCazNfcEtBZzVGTzYxdmlfQ0praWY5QW1FTHBlbVV3In0.eyJleHAiOjE2ODk1MzkxNTIsImlhdCI6MTY4OTUzODg1MiwiYXV0aF90aW1lIjoxNjg5NTM4ODIzLCJqdGkiOiIxNTk4ZjEyNS1iYmIxLTRhZmQtYjVjYy1hNGMxNDRkNmY5MTIiLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwODAvcmVhbG1zL2FwcHNkZXZlbG9wZXJibG9nMiIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiJkM2EzYzQ2Ni0zYzFjLTQ0NWQtYjBhNC05NzJmYWVjYWZhZjkiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJwaG90by1hcHAtY29kZS1mbG93LXJlc3QtY2llbnQiLCJzZXNzaW9uX3N0YXRlIjoiZmUyZjQ0ZTktYTVkYy00ZjNmLWI5ZjItMjRlYTNhNGRjZWY5IiwiYWxsb3dlZC1vcmlnaW5zIjpbIi8qIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsImRlZmF1bHQtcm9sZXMtYXBwc2RldmVsb3BlcmJsb2cyIiwiZGV2ZWxvcGVyIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6ImVtYWlsIiwic2lkIjoiZmUyZjQ0ZTktYTVkYy00ZjNmLWI5ZjItMjRlYTNhNGRjZWY5IiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImVtYWlsIjoibHVpemEuY2VyY2hpYXJpQGdtYWlsLmNvbSJ9.HUSZbiXruUwFalOFj-gUElzs0Bia3qqBkPLkWw3Zh1AV0QqX-cpBwaz3OUoxSCNGIoqF2wKPZqZCXY41EW94AC8ck5AcaDsok7bljcNx8geakCESMQpgcQrAM5MmRc-CMv216kbM4uykrFLecL1xc8rpNGNHh3g3--d6bKVRv9oWBlOlHVGRstE6LdEARYbcAcaH7Ikpl76EbP_dEglWy6o11PeX_YWadiC9C7r3_c26S96U1SjPT-CSp1RR8dh8dwkTOp5qBgTiO1wioomyDfAqncZo8mQzeFOGbqHKo-6RN_V90J7XWXza9Hn2mk8M0OFKKtBFrOneLRXdxd_B6g",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "code",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "redirect_uri",
+									"value": "http://localhost:8083/callback",
+									"type": "text"
+								},
+								{
+									"key": "scope",
+									"value": "openid profile email phone",
+									"type": "text"
+								},
+								{
+									"key": "client_id",
+									"value": "photo-app-code-flow-client",
+									"type": "text"
+								},
+								{
+									"key": "response_type",
+									"value": "code",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8081/users/668",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"users",
+								"668"
 							]
 						}
 					},
