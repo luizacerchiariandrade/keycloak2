@@ -1109,7 +1109,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJGQmFmZG9JdGJJQktCazNfcEtBZzVGTzYxdmlfQ0praWY5QW1FTHBlbVV3In0.eyJleHAiOjE2ODk1MzkxNTIsImlhdCI6MTY4OTUzODg1MiwiYXV0aF90aW1lIjoxNjg5NTM4ODIzLCJqdGkiOiIxNTk4ZjEyNS1iYmIxLTRhZmQtYjVjYy1hNGMxNDRkNmY5MTIiLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwODAvcmVhbG1zL2FwcHNkZXZlbG9wZXJibG9nMiIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiJkM2EzYzQ2Ni0zYzFjLTQ0NWQtYjBhNC05NzJmYWVjYWZhZjkiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJwaG90by1hcHAtY29kZS1mbG93LXJlc3QtY2llbnQiLCJzZXNzaW9uX3N0YXRlIjoiZmUyZjQ0ZTktYTVkYy00ZjNmLWI5ZjItMjRlYTNhNGRjZWY5IiwiYWxsb3dlZC1vcmlnaW5zIjpbIi8qIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsImRlZmF1bHQtcm9sZXMtYXBwc2RldmVsb3BlcmJsb2cyIiwiZGV2ZWxvcGVyIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6ImVtYWlsIiwic2lkIjoiZmUyZjQ0ZTktYTVkYy00ZjNmLWI5ZjItMjRlYTNhNGRjZWY5IiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImVtYWlsIjoibHVpemEuY2VyY2hpYXJpQGdtYWlsLmNvbSJ9.HUSZbiXruUwFalOFj-gUElzs0Bia3qqBkPLkWw3Zh1AV0QqX-cpBwaz3OUoxSCNGIoqF2wKPZqZCXY41EW94AC8ck5AcaDsok7bljcNx8geakCESMQpgcQrAM5MmRc-CMv216kbM4uykrFLecL1xc8rpNGNHh3g3--d6bKVRv9oWBlOlHVGRstE6LdEARYbcAcaH7Ikpl76EbP_dEglWy6o11PeX_YWadiC9C7r3_c26S96U1SjPT-CSp1RR8dh8dwkTOp5qBgTiO1wioomyDfAqncZo8mQzeFOGbqHKo-6RN_V90J7XWXza9Hn2mk8M0OFKKtBFrOneLRXdxd_B6g",
+								"value": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJGQmFmZG9JdGJJQktCazNfcEtBZzVGTzYxdmlfQ0praWY5QW1FTHBlbVV3In0.eyJleHAiOjE2ODk1NDA3MDYsImlhdCI6MTY4OTU0MDQwNiwiYXV0aF90aW1lIjoxNjg5NTM4ODIzLCJqdGkiOiI5OTk0OTJhYi02ZTU5LTQxZDItOTVjZi1hY2EwNmFlM2VlNGEiLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwODAvcmVhbG1zL2FwcHNkZXZlbG9wZXJibG9nMiIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiJkM2EzYzQ2Ni0zYzFjLTQ0NWQtYjBhNC05NzJmYWVjYWZhZjkiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJwaG90by1hcHAtY29kZS1mbG93LXJlc3QtY2llbnQiLCJzZXNzaW9uX3N0YXRlIjoiZmUyZjQ0ZTktYTVkYy00ZjNmLWI5ZjItMjRlYTNhNGRjZWY5IiwiYWxsb3dlZC1vcmlnaW5zIjpbIi8qIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsImRlZmF1bHQtcm9sZXMtYXBwc2RldmVsb3BlcmJsb2cyIiwiZGV2ZWxvcGVyIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6ImVtYWlsIiwic2lkIjoiZmUyZjQ0ZTktYTVkYy00ZjNmLWI5ZjItMjRlYTNhNGRjZWY5IiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImVtYWlsIjoibHVpemEuY2VyY2hpYXJpQGdtYWlsLmNvbSJ9.n8Gr0Yo-yrwfbcrr1pbRfNIyItAXG8ZOLwmTNIA7ykDoXhS3fKCw9ODgOP53DpKIJAW8l23FyZU51YfLU71Kqt5YUjl4aYxjYs3Awp_WhQ6ASvO6j-aAu7JZ5C5ppZ2oKQ4lKdLvLBDaOmDK0r5E1A1Y9571B13Uzq0MZvlK--dJmhh0zUqEnn5ygcnZUM0Ue282SBNthsg16p7oms20ApZlE53LqQjl1UbtDvvaKUATw99L3F351gTmKpBW3z2O4l-t_LRUSaN203SlANHunPhLsFxOTDkeynpKb4wycVLZY6ZQ8LArUBkquWcAxUY7xIPrl0TUCeU_fTWi6Ynhog",
 								"type": "text"
 							}
 						],
@@ -1144,7 +1144,7 @@
 							]
 						},
 						"url": {
-							"raw": "http://localhost:8081/users/668",
+							"raw": "http://localhost:8081/users/d3a3c466-3c1c-445d-b0a4-972faecafaf9",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -1152,7 +1152,7 @@
 							"port": "8081",
 							"path": [
 								"users",
-								"668"
+								"d3a3c466-3c1c-445d-b0a4-972faecafaf9"
 							]
 						}
 					},
@@ -1194,6 +1194,374 @@
 									"key": "redirect_uri",
 									"value": "http://localhost:8086/callback"
 								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "8.Method Level Security",
+			"item": [
+				{
+					"name": "Get Grant Authorize Copy 2",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/realms/appsdeveloperblog2/protocol/openid-connect/auth?response_type=code&client_id=photo-app-code-flow-rest-cient&state=hv8hf0h2i7d&redirect_uri=http://localhost:8086/callback",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"realms",
+								"appsdeveloperblog2",
+								"protocol",
+								"openid-connect",
+								"auth"
+							],
+							"query": [
+								{
+									"key": "response_type",
+									"value": "code"
+								},
+								{
+									"key": "client_id",
+									"value": "photo-app-code-flow-rest-cient"
+								},
+								{
+									"key": "state",
+									"value": "hv8hf0h2i7d"
+								},
+								{
+									"key": "redirect_uri",
+									"value": "http://localhost:8086/callback"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete_role Copy",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJGQmFmZG9JdGJJQktCazNfcEtBZzVGTzYxdmlfQ0praWY5QW1FTHBlbVV3In0.eyJleHAiOjE2ODk1NDA3MDYsImlhdCI6MTY4OTU0MDQwNiwiYXV0aF90aW1lIjoxNjg5NTM4ODIzLCJqdGkiOiI5OTk0OTJhYi02ZTU5LTQxZDItOTVjZi1hY2EwNmFlM2VlNGEiLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwODAvcmVhbG1zL2FwcHNkZXZlbG9wZXJibG9nMiIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiJkM2EzYzQ2Ni0zYzFjLTQ0NWQtYjBhNC05NzJmYWVjYWZhZjkiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJwaG90by1hcHAtY29kZS1mbG93LXJlc3QtY2llbnQiLCJzZXNzaW9uX3N0YXRlIjoiZmUyZjQ0ZTktYTVkYy00ZjNmLWI5ZjItMjRlYTNhNGRjZWY5IiwiYWxsb3dlZC1vcmlnaW5zIjpbIi8qIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsImRlZmF1bHQtcm9sZXMtYXBwc2RldmVsb3BlcmJsb2cyIiwiZGV2ZWxvcGVyIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6ImVtYWlsIiwic2lkIjoiZmUyZjQ0ZTktYTVkYy00ZjNmLWI5ZjItMjRlYTNhNGRjZWY5IiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImVtYWlsIjoibHVpemEuY2VyY2hpYXJpQGdtYWlsLmNvbSJ9.n8Gr0Yo-yrwfbcrr1pbRfNIyItAXG8ZOLwmTNIA7ykDoXhS3fKCw9ODgOP53DpKIJAW8l23FyZU51YfLU71Kqt5YUjl4aYxjYs3Awp_WhQ6ASvO6j-aAu7JZ5C5ppZ2oKQ4lKdLvLBDaOmDK0r5E1A1Y9571B13Uzq0MZvlK--dJmhh0zUqEnn5ygcnZUM0Ue282SBNthsg16p7oms20ApZlE53LqQjl1UbtDvvaKUATw99L3F351gTmKpBW3z2O4l-t_LRUSaN203SlANHunPhLsFxOTDkeynpKb4wycVLZY6ZQ8LArUBkquWcAxUY7xIPrl0TUCeU_fTWi6Ynhog",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "code",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "redirect_uri",
+									"value": "http://localhost:8083/callback",
+									"type": "text"
+								},
+								{
+									"key": "scope",
+									"value": "openid profile email phone",
+									"type": "text"
+								},
+								{
+									"key": "client_id",
+									"value": "photo-app-code-flow-client",
+									"type": "text"
+								},
+								{
+									"key": "response_type",
+									"value": "code",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8081/users/d3a3c466-3c1c-445d-b0a4-972faecafaf9",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"users",
+								"d3a3c466-3c1c-445d-b0a4-972faecafaf9"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "statuscheck Copy",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJGQmFmZG9JdGJJQktCazNfcEtBZzVGTzYxdmlfQ0praWY5QW1FTHBlbVV3In0.eyJleHAiOjE2ODk0NDgxNzUsImlhdCI6MTY4OTQ0Nzg3NSwiYXV0aF90aW1lIjoxNjg5NDQ2NzY2LCJqdGkiOiJlZDMwMWY2Zi1hOTJkLTQ3YmYtYTkzMy1jNzAyNDNkZWIxNzciLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwODAvcmVhbG1zL2FwcHNkZXZlbG9wZXJibG9nMiIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiJkM2EzYzQ2Ni0zYzFjLTQ0NWQtYjBhNC05NzJmYWVjYWZhZjkiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJwaG90by1hcHAtY29kZS1mbG93LXJlc3QtY2llbnQiLCJzZXNzaW9uX3N0YXRlIjoiZWU2MmQyMTUtM2U0YS00NmVhLTk0ODMtOGZiMTIxODc2MDQ2IiwiYWxsb3dlZC1vcmlnaW5zIjpbIi8qIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsImRlZmF1bHQtcm9sZXMtYXBwc2RldmVsb3BlcmJsb2cyIiwiZGV2ZWxvcGVyIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6ImVtYWlsIiwic2lkIjoiZWU2MmQyMTUtM2U0YS00NmVhLTk0ODMtOGZiMTIxODc2MDQ2IiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImVtYWlsIjoibHVpemEuY2VyY2hpYXJpQGdtYWlsLmNvbSJ9.jG_flEesi1XLm7B-tCmihgc4c0kU_cqIumXQbGaJgEdZyNINkENwrtCLB309I2UV6Gx4e7xrPGJ0iS2bDlf7v52nb8PzADxumyOBz7GeS0vPIdSM4UagDh5Q5MkAOTMfnf3yIq__E2kHYvzjeNA7m47hazn5IRSQxCviLqO51jFQ14boYcvAXDDDxNvFQbYLOP6aEiQXayx1v8ohSRp-2XXmQGGFmsa0HGmg3QqZWsgWDfkdaxzvLFo_-SM6BE-9Itw3_gGhvVMzgVtv_wGbAi8M0HtlzWbGdjf-gPRZ_2gnPu9AKTVB4O9FhyqREG5OCUONlXeYyCCMLGqyUYyQOA",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "code",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "redirect_uri",
+									"value": "http://localhost:8083/callback",
+									"type": "text"
+								},
+								{
+									"key": "scope",
+									"value": "openid profile email phone",
+									"type": "text"
+								},
+								{
+									"key": "client_id",
+									"value": "photo-app-code-flow-client",
+									"type": "text"
+								},
+								{
+									"key": "response_type",
+									"value": "code",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8081/users/status/check",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"users",
+								"status",
+								"check"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Exchange Code for Token Copy 2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "grant_type",
+									"value": "authorization_code",
+									"type": "text"
+								},
+								{
+									"key": "client_id",
+									"value": "photo-app-code-flow-rest-cient",
+									"type": "text"
+								},
+								{
+									"key": "client_secret",
+									"value": "72a11dGQwYrwliaSbXBty9TtgkzghfHc",
+									"type": "text"
+								},
+								{
+									"key": "redirect_uri",
+									"value": "http://localhost:8086/callback",
+									"type": "text"
+								},
+								{
+									"key": "scope",
+									"value": "openid profile",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "code",
+									"value": "53af9316-9670-4443-8307-e4fa4d289fd6.ee62d215-3e4a-46ea-9483-8fb121876046.8cd82c4f-d48b-4940-8eda-25e6e7be720e",
+									"description": "passar get grant before",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/realms/appsdeveloperblog2/protocol/openid-connect/token",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"realms",
+								"appsdeveloperblog2",
+								"protocol",
+								"openid-connect",
+								"token"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "9-api gateway",
+			"item": [
+				{
+					"name": "pass grant type",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJGQmFmZG9JdGJJQktCazNfcEtBZzVGTzYxdmlfQ0praWY5QW1FTHBlbVV3In0.eyJleHAiOjE2ODk0NDgxNzUsImlhdCI6MTY4OTQ0Nzg3NSwiYXV0aF90aW1lIjoxNjg5NDQ2NzY2LCJqdGkiOiJlZDMwMWY2Zi1hOTJkLTQ3YmYtYTkzMy1jNzAyNDNkZWIxNzciLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwODAvcmVhbG1zL2FwcHNkZXZlbG9wZXJibG9nMiIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiJkM2EzYzQ2Ni0zYzFjLTQ0NWQtYjBhNC05NzJmYWVjYWZhZjkiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJwaG90by1hcHAtY29kZS1mbG93LXJlc3QtY2llbnQiLCJzZXNzaW9uX3N0YXRlIjoiZWU2MmQyMTUtM2U0YS00NmVhLTk0ODMtOGZiMTIxODc2MDQ2IiwiYWxsb3dlZC1vcmlnaW5zIjpbIi8qIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsImRlZmF1bHQtcm9sZXMtYXBwc2RldmVsb3BlcmJsb2cyIiwiZGV2ZWxvcGVyIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6ImVtYWlsIiwic2lkIjoiZWU2MmQyMTUtM2U0YS00NmVhLTk0ODMtOGZiMTIxODc2MDQ2IiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImVtYWlsIjoibHVpemEuY2VyY2hpYXJpQGdtYWlsLmNvbSJ9.jG_flEesi1XLm7B-tCmihgc4c0kU_cqIumXQbGaJgEdZyNINkENwrtCLB309I2UV6Gx4e7xrPGJ0iS2bDlf7v52nb8PzADxumyOBz7GeS0vPIdSM4UagDh5Q5MkAOTMfnf3yIq__E2kHYvzjeNA7m47hazn5IRSQxCviLqO51jFQ14boYcvAXDDDxNvFQbYLOP6aEiQXayx1v8ohSRp-2XXmQGGFmsa0HGmg3QqZWsgWDfkdaxzvLFo_-SM6BE-9Itw3_gGhvVMzgVtv_wGbAi8M0HtlzWbGdjf-gPRZ_2gnPu9AKTVB4O9FhyqREG5OCUONlXeYyCCMLGqyUYyQOA",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "grant_type",
+									"value": "password",
+									"type": "text"
+								},
+								{
+									"key": "username",
+									"value": "luiza.cerchiari",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "admin2",
+									"type": "text"
+								},
+								{
+									"key": "client_id",
+									"value": "photo-app-code-flow-rest-cient",
+									"type": "text"
+								},
+								{
+									"key": "client_secret",
+									"value": "72a11dGQwYrwliaSbXBty9TtgkzghfHc",
+									"type": "text"
+								},
+								{
+									"key": "scope",
+									"value": "openid profile",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/realms/appsdeveloperblog2/protocol/openid-connect/token",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"realms",
+								"appsdeveloperblog2",
+								"protocol",
+								"openid-connect",
+								"token"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "users/sh",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJGQmFmZG9JdGJJQktCazNfcEtBZzVGTzYxdmlfQ0praWY5QW1FTHBlbVV3In0.eyJleHAiOjE2ODk2MjE5MzIsImlhdCI6MTY4OTYyMTYzMiwiYXV0aF90aW1lIjoxNjg5NjIxNjA1LCJqdGkiOiIzMTM5ZjlkNy0yYjUxLTQxNjgtOGZlNi05MTNkMWU5ZWVmOTUiLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwODAvcmVhbG1zL2FwcHNkZXZlbG9wZXJibG9nMiIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiJkM2EzYzQ2Ni0zYzFjLTQ0NWQtYjBhNC05NzJmYWVjYWZhZjkiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJwaG90by1hcHAtY29kZS1mbG93LXJlc3QtY2llbnQiLCJzZXNzaW9uX3N0YXRlIjoiNmJiNzgyOTktODRiZi00MDYyLWE5MDYtMWQ2OGQ5YjFiMWVkIiwiYWxsb3dlZC1vcmlnaW5zIjpbIi8qIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsImRlZmF1bHQtcm9sZXMtYXBwc2RldmVsb3BlcmJsb2cyIiwiZGV2ZWxvcGVyIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6ImVtYWlsIiwic2lkIjoiNmJiNzgyOTktODRiZi00MDYyLWE5MDYtMWQ2OGQ5YjFiMWVkIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImVtYWlsIjoibHVpemEuY2VyY2hpYXJpQGdtYWlsLmNvbSJ9.zHNyWTIakkTJL03-D1rpIpfkutRX2VztN1M905_jGtONyedEAJoslnKvF50tWIW-kI5OES94T08aS0Oln5b2FNFNnQ7wbb4tdqn7cQPRyze-9r1nyEHvFHMKQIxjPRUybDAD7jVFqXmEE4EW4O8hik2UAjH9TlHVXTK3WKo3Wp_6wjszlBvXt9ULUXVrRw49RBzLBwhXxO-okqe8DuGDlgy8DdNapJVVe5yUyeuloAhHHsizE54F62p1CYx6ClOsoGZ0y5GiFLrtJoEHeLOFUx6pJxhtR4tniFIuY6vIXgilvQfQN1sdQs0Ezw0FJmMhHtRisN9-xNOdW12_oB8VyQ",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8082/users/status/check",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"users",
+								"status",
+								"check"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "albums",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJGQmFmZG9JdGJJQktCazNfcEtBZzVGTzYxdmlfQ0praWY5QW1FTHBlbVV3In0.eyJleHAiOjE2ODk2MzE3MjQsImlhdCI6MTY4OTYzMTQyNCwianRpIjoiZWQ4Mjc2MzEtMzM0Yy00ODU1LTk5NTUtYzZjYzYzYjJlYTQ2IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3JlYWxtcy9hcHBzZGV2ZWxvcGVyYmxvZzIiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiZDNhM2M0NjYtM2MxYy00NDVkLWIwYTQtOTcyZmFlY2FmYWY5IiwidHlwIjoiQmVhcmVyIiwiYXpwIjoicGhvdG8tYXBwLWNvZGUtZmxvdy1yZXN0LWNpZW50Iiwic2Vzc2lvbl9zdGF0ZSI6IjAxYWFjMjc0LTQzNGYtNDA5Yy04ZTYzLWE0NmFmZmRmMjMzOCIsImFsbG93ZWQtb3JpZ2lucyI6WyIvKiJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJkZWZhdWx0LXJvbGVzLWFwcHNkZXZlbG9wZXJibG9nMiIsImRldmVsb3BlciIsInVtYV9hdXRob3JpemF0aW9uIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJvcGVuaWQgZW1haWwgcHJvZmlsZSIsInNpZCI6IjAxYWFjMjc0LTQzNGYtNDA5Yy04ZTYzLWE0NmFmZmRmMjMzOCIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJuYW1lIjoiTHVpemEgQ2VyY2hpYXJpIiwicHJlZmVycmVkX3VzZXJuYW1lIjoibHVpemEuY2VyY2hpYXJpIiwiZ2l2ZW5fbmFtZSI6Ikx1aXphIiwiZmFtaWx5X25hbWUiOiJDZXJjaGlhcmkiLCJlbWFpbCI6Imx1aXphLmNlcmNoaWFyaUBnbWFpbC5jb20ifQ.cB8Hq_qJ0LlJyRMgiho07pusVn7QxfboXysfbn-TnmUszvxZiIu3jN-RwmEo4A6GI5wCUNKJDzxxwCvZTJ7nMqVND_dL5uWRtO_jsGTYzV8XJBPRjTHRyaAGORF8Va0oKDuCR85CE9X4FCNk4ayzY0Hk6o2du7WuBWC4vgWwT3Fpm6FfpUHA_FoVW36qeot0gph0gO7nqx0VszzH5psFziL_EwP0AHh0k3Lazut8en2CyEQX4QTqBzZbllehsXWwezhX1K-3lqMgzKy-B-mslY-9JlP0_pM8Egq6nAjfwC8q937eb-VVNo0RN9KRHVg8f04Fo2qAGK4-uAW7YfT4MQ",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8091/albums",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8091",
+							"path": [
+								"albums"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "photos",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJGQmFmZG9JdGJJQktCazNfcEtBZzVGTzYxdmlfQ0praWY5QW1FTHBlbVV3In0.eyJleHAiOjE2ODk2MzE3MjQsImlhdCI6MTY4OTYzMTQyNCwianRpIjoiZWQ4Mjc2MzEtMzM0Yy00ODU1LTk5NTUtYzZjYzYzYjJlYTQ2IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3JlYWxtcy9hcHBzZGV2ZWxvcGVyYmxvZzIiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiZDNhM2M0NjYtM2MxYy00NDVkLWIwYTQtOTcyZmFlY2FmYWY5IiwidHlwIjoiQmVhcmVyIiwiYXpwIjoicGhvdG8tYXBwLWNvZGUtZmxvdy1yZXN0LWNpZW50Iiwic2Vzc2lvbl9zdGF0ZSI6IjAxYWFjMjc0LTQzNGYtNDA5Yy04ZTYzLWE0NmFmZmRmMjMzOCIsImFsbG93ZWQtb3JpZ2lucyI6WyIvKiJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJkZWZhdWx0LXJvbGVzLWFwcHNkZXZlbG9wZXJibG9nMiIsImRldmVsb3BlciIsInVtYV9hdXRob3JpemF0aW9uIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJvcGVuaWQgZW1haWwgcHJvZmlsZSIsInNpZCI6IjAxYWFjMjc0LTQzNGYtNDA5Yy04ZTYzLWE0NmFmZmRmMjMzOCIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJuYW1lIjoiTHVpemEgQ2VyY2hpYXJpIiwicHJlZmVycmVkX3VzZXJuYW1lIjoibHVpemEuY2VyY2hpYXJpIiwiZ2l2ZW5fbmFtZSI6Ikx1aXphIiwiZmFtaWx5X25hbWUiOiJDZXJjaGlhcmkiLCJlbWFpbCI6Imx1aXphLmNlcmNoaWFyaUBnbWFpbC5jb20ifQ.cB8Hq_qJ0LlJyRMgiho07pusVn7QxfboXysfbn-TnmUszvxZiIu3jN-RwmEo4A6GI5wCUNKJDzxxwCvZTJ7nMqVND_dL5uWRtO_jsGTYzV8XJBPRjTHRyaAGORF8Va0oKDuCR85CE9X4FCNk4ayzY0Hk6o2du7WuBWC4vgWwT3Fpm6FfpUHA_FoVW36qeot0gph0gO7nqx0VszzH5psFziL_EwP0AHh0k3Lazut8en2CyEQX4QTqBzZbllehsXWwezhX1K-3lqMgzKy-B-mslY-9JlP0_pM8Egq6nAjfwC8q937eb-VVNo0RN9KRHVg8f04Fo2qAGK4-uAW7YfT4MQ",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8090/photos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8090",
+							"path": [
+								"photos"
 							]
 						}
 					},
